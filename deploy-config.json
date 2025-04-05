@@ -1,0 +1,15 @@
+{
+  "github_repo_link": "https://github.com/test-org-hkm/awesomeny",
+  "domain_name": "awesomeny",
+  "cpu": "200m",
+  "ram": "512Mi",
+  "databases": {
+    "clickhouse": false,
+    "redis": false,
+    "postgres": false
+  },
+  "env_variables": {},
+  "namespace": "utils",
+  "port": 8000,
+  "replicas": 1
+}
